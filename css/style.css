@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto";
+}
+body {
+  background: #004e35;
+}
+/* header style start */
+.header-container {
+  margin: 16px 64px 0 64px;
+  height: 32px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.header-text-list {
+  display: flex;
+  flex-direction: row;
+}
+.header-text-link {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 17px;
+  color: #88e53e;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-left: 48px;
+}
+/* header style end */
+
+/* article style start */
+article {
+  display: flex;
+  justify-content: space-around;
+}
+.article-container {
+  display: flex;
+  flex-direction: row;
+}
+.article-text {
+  margin-top: 280px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #88e53e;
+}
+.article-title {
+  margin-left: 233px;
+  margin-top: 240px;
+  width: 533px;
+  height: 288px;
+  font-weight: 400;
+  font-size: 179px;
+  line-height: 143px;
+  color: #88e53e;
+}
+.scroll-down {
+  margin-top: 230px;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  text-transform: uppercase;
+}
+/* article style end */
+
+.new-way {
+  margin-top: 73px;
+}
+.section-new-way-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.section-new-way {
+  width: 640px;
+  height: 641px;
+  font-weight: 400;
+  font-size: 63px;
+  line-height: 58px;
+  color: #004e35;
+  background: #c0e8c0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+.our-mission {
+  width: 100%;
+  height: 565px;
+  background: white;
+  display: flex;
+  justify-content: center;
+}
+.our-mission-container {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.our-mission-title {
+  margin: auto;
+  width: 441px;
+  font-weight: 400;
+  font-size: 112px;
+  line-height: 101px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #004e35;
+}
+.our-mission-list {
+  display: flex;
+}
+.our-mission-text {
+  width: 88px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  margin-left: 34px;
+  color: #004e35;
+  margin-bottom: 52px;
+}
+.our-mission-text:first-child{
+    margin-left: 0;
+}
+.our-mission-text-end {
+  width: 591px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+
+  color: #004e35;
+}
