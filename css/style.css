@@ -64,6 +64,7 @@ article {
 }
 /* article style end */
 
+/* new-way style start */
 .new-way {
   margin-top: 73px;
 }
@@ -84,6 +85,9 @@ article {
   display: flex;
   align-items: center;
 }
+/* new-way style end */
+
+/* our-mission style start*/
 .our-mission {
   width: 100%;
   height: 565px;
@@ -119,10 +123,12 @@ article {
   text-align: center;
   margin-left: 34px;
   color: #004e35;
-  margin-bottom: 52px;
 }
-.our-mission-text:first-child{
-    margin-left: 0;
+.our-mission-text:first-child {
+  margin-left: 0;
+}
+.our-mission-space {
+  margin-bottom: 52px;
 }
 .our-mission-text-end {
   width: 591px;
@@ -133,3 +139,195 @@ article {
 
   color: #004e35;
 }
+
+/* our-mission style end */
+
+/* background-img style start */
+.background-img-container {
+  display: flex;
+  justify-content: center;
+}
+.background-img {
+  width: 1280px;
+  height: 784px;
+  background: url(../img/background-img.png) no-repeat center;
+}
+/* background-img style end */
+
+/* our-platform style start */
+.our-platform {
+  max-width: 100%;
+  height: 1084px;
+  display: flex;
+  justify-content: center;
+}
+.our-platform-container {
+  width: 1852px;
+}
+.our-platform-title {
+  width: 717px;
+  margin-top: 45px;
+  font-weight: 400;
+  font-size: 144px;
+  line-height: 130px;
+  text-transform: uppercase;
+  color: #fbf4eb;
+}
+.our-platform-cube-container {
+  margin-top: 438px;
+  display: flex;
+  justify-content: space-around;
+}
+.our-platform-cube {
+  width: 390px;
+  height: 240px;
+  background: #fbf4eb;
+}
+.our-platform-text {
+  width: 284px;
+  margin-left: 24px;
+  text-align: left;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 45px;
+  letter-spacing: 0.2px;
+
+  color: #004e35;
+}
+.our-platform-img {
+  margin-top: 32px;
+  margin-left: 24px;
+}
+.our-platform-img-down {
+  margin-top: 77px;
+  margin-left: 24px;
+}
+/* our-platform style end */
+
+/* latest-updates style start */
+.latest-updates {
+  max-width: 100%;
+  height: 1142px;
+  background: #fbf4eb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.latest-updates-title {
+  width: 594px;
+  margin-bottom: 138px;
+  font-weight: 400;
+  font-size: 134px;
+  line-height: 130px;
+  text-transform: uppercase;
+
+  color: #004e35;
+}
+.latest-updates-container {
+  display: flex;
+  justify-content: space-around;
+}
+.latest-updates-data {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  text-transform: uppercase;
+
+  color: #004e35;
+}
+.latest-updates-text {
+  width: 491px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #004e35;
+}
+.latest-updates-credits {
+  margin-top: 24px;
+  width: 542px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+
+  color: #004e35;
+}
+/* latest-updates style end */
+
+/* follow-media style start */
+.follow-media {
+  height: 92px;
+}
+.follow-media-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.follow-media-line {
+  width: 550px;
+  margin-top: 16px;
+  margin-right: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.follow-media-text {
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 35px;
+
+  color: #fbf4eb;
+}
+.follow-media-button {
+  width: 135px;
+  height: 60px;
+  background: #88e53e;
+  border: none;
+  border-radius: 640px;
+
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 19px;
+  text-transform: uppercase;
+
+  color: #004e35;
+}
+/* follow-media style end */
+
+/* next-platform style start */
+.next-platform {
+  padding-top: 217px;
+  max-width: 100%;
+  height: 300px;
+  background: #c0e8c0;
+}
+.next-platform-title {
+  margin-left: 24px;
+  font-weight: 400;
+  font-size: 107px;
+  line-height: 101px;
+  text-transform: uppercase;
+
+  color: #004e35;
+}
+/* next-platform style end */
+
+/* footer style start */
+footer {
+  background: #c0e8c0;
+}
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.footer-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+
+  color: #004e35;
+}
+/* footer style end */
